@@ -386,22 +386,28 @@
 
 
 
-function person (name,age){
-  this.name =name;
-  this.age=age;
-  this.yob= yob;
-}
-function yob(age){
-    return 2024-this.age
+// function person (name,age){
+//   this.name =name;
+//   this.age=age;
+//   this.yob= yob;
+// }
+// function yob(age){
+//     return 2024-this.age
   
-}
-var p = new person("vinay",23);
-console.log(p.name+p.age);
-console.log("before the method call");
+// }
+// var p = new person("vinay",23);
+// console.log(p.name+p.age);
+// console.log("before the method call");
 
-console.log(p.age);
-console.log("after method call");
+// console.log(p.age);
+// console.log("after method call");
 
-console.log(p.yob());
-console.log(p.age);
+// console.log(p.yob());
+// console.log(p.age);
 
+
+
+
+//************    ARRAYS *************** */
+//arrays
+//arrays creations and access
