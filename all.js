@@ -309,3 +309,99 @@
 
 // Alert box
 
+//class and object 
+
+// var person = {name : "vinay", age : "21"};
+// console.log(typeof(person));
+// console.log(person);
+// console.log(person.age);
+// console.log(person.age.length)
+// console.log(person.name)
+// console.log(person.name.length)
+
+
+//*************object methods  *********/
+//************* object constructors*****
+// */
+// function person (name,age){  // to create the constructors
+//   this.name=name;
+//   this.age=age;
+// }
+// var p = new person("vinay",21)  // to create the objects
+// var p1 =new person("guru",22)
+// console.log(p.name)
+// console.log(p.age)
+// console.log(p1.name)
+// console.log(p1.age);
+
+
+//******** Methods */
+// var person= {name:"vinay",age :21, changename: function change(a){this.name=a;  console.log("fun call") }};
+// console.log("Before method call");
+// console.log(person.name);
+
+// console.log("after method call");
+// person.changename("guru");
+// console.log(person.name);
+
+// function person (name,age){
+//   this.name =name;
+//   this.age=age;
+//   this.changeage=function cn(age)
+//   {
+
+//     this.age=age;
+//   }
+// }
+// var p = new person("vinay",21);
+// //console.log(p.name+p.age);
+// console.log("before the method call");
+
+// console.log(p.age);
+// console.log("after method call");
+
+// p.changeage(45);
+// console.log(p.age);
+
+
+// function person (name,age){
+//   this.name =name;
+//   this.age=age;
+//   this.changeage=cn;
+// }
+// function cn(age){
+//     this.age=age;
+  
+// }
+// var p = new person("vinay",21);
+// //console.log(p.name+p.age);
+// console.log("before the method call");
+
+// console.log(p.age);
+// console.log("after method call");
+
+// p.changeage(45);
+// console.log(p.age);
+
+
+
+
+function person (name,age){
+  this.name =name;
+  this.age=age;
+  this.yob= yob;
+}
+function yob(age){
+    return 2024-this.age
+  
+}
+var p = new person("vinay",23);
+console.log(p.name+p.age);
+console.log("before the method call");
+
+console.log(p.age);
+console.log("after method call");
+
+console.log(p.yob());
+console.log(p.age);
+
